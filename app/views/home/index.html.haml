@@ -1,0 +1,26 @@
+.container
+  .row
+    .col-sm-12
+      %legend Welcome
+    / panel preview
+    .col-sm-6
+      .well.well-sm
+        %h4 Sign Up
+        %form.form-horizontal{:role => "form"}
+          .panel.panel-default
+            .panel-body.form-horizontal.signup-form
+              .form-group
+                %label.col-sm-3.control-label{:for => "email"} Email
+                .col-sm-9
+                  %input#email.form-control{:placeholder => "Your email", :name => "email", :type => "email"}/
+              .form-group
+                %label.col-sm-3.control-label{:for => "password"} Password
+                .col-sm-9
+                  %input#password.form-control{:placeholder => "Enter Password", :name => "password", :type => "password"}/
+              .form-group
+                %label.col-sm-3.control-label{:for => "confpassword"} Confirm Password
+                .col-sm-9
+                  %input#confpassword.form-control{:placeholder => "Retype Password", :name => "confpassword", :type => "password"}/
+              .col-xs-12
+                %hr{:style => "border:1px dashed #dddddd;"}/
+                %button.btn.btn-primary.btn-block{:type => "submit"} Submit
