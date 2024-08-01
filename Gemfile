@@ -32,7 +32,7 @@ gem "less-rails", '~> 2.5.0'
 gem 'haml', '~> 4.0.5' 
 gem 'haml-rails', '~> 0.5.3'
 gem 'pg', '~> 0.17.1'
-gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem "devise", '~> 3.3.0'
 gem "simple_form", '~> 3.0.2'
 gem "better_errors", '~> 2.0.0', :group => [:development, :test]
